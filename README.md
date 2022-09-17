@@ -6,16 +6,16 @@ Student Management System is system that helps us to manage Students Details , I
 ### LinkedIn Profile :- https://www.linkedin.com/in/ankitofficial/
 
 ## Details Dashboard
-Student can enter details in this page.
+###Student can enter details in this page.
 ![details](https://github.com/AnkitRana26/Student-Managment/blob/main/src/Details%20DashBoard.png)
 
 
 ## Student Dashboard
-Student Information can be seen in this Page.
+###Student Information can be seen in this Page.
 ![student](https://github.com/AnkitRana26/Student-Managment/blob/main/src/Student%20Dashboard.png)
 
 
 ## Student Dashboard
-Student Details can be updated in this Page.
+###Student Details can be updated in this Page.
 ![update](https://github.com/AnkitRana26/Student-Managment/blob/main/src/update.png)
 
