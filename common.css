@@ -1,0 +1,186 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+nav {
+	/* display: flex; */
+	/* padding: 1%; */
+	width: 100%;
+	align-items: center;
+	color: white;
+	/* border: 1px solid yellow; */
+	background-color: #2b1f31;
+	text-align: center;
+}
+nav > h1 {
+	padding: 1%;
+}
+#navbarOptions {
+	/* margin-top: 2%; */
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+#navbarOptions > li {
+	list-style: none;
+	/* border: 1px solid black; */
+	/* margin: auto 15px; */
+	/* width: fit-content; */
+	text-align: center;
+	padding: 2% 0%;
+}
+
+#navbarOptions > li:first-child {
+	border-right: 1px solid white;
+}
+#navbarOptions > li > a {
+	/* height: auto; */
+
+	width: 100%;
+	padding-top: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#navbarOptions > li:hover {
+	background: #44a08d;
+	background: -webkit-linear-gradient(to right, #093637, #44a08d);
+	background: linear-gradient(to right, #093637, #44a08d);
+}
+
+body {
+	background-color: #413d65;
+}
+
+#details > input,
+#details > select {
+	width: 100%;
+	margin-bottom: 5%;
+	outline: none;
+	border: none;
+	background-color: #5fb9b0;
+	padding: 2%;
+	font-weight: 800px;
+}
+
+#details > label {
+	color: white;
+}
+
+#details > input:last-child {
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 2%;
+	padding: 3%;
+	font-weight: bolder;
+	font-size: large;
+	color: white;
+}
+
+#details {
+	width: 30%;
+	margin: auto;
+	margin-top: 2%;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	padding: 2%;
+	border-radius: 5% 0% 5% 0%;
+}
+
+#status {
+	background-color: #bef992;
+	padding: 1%;
+}
+
+#showStatus {
+	animation-name: slide;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	width: fit-content;
+	/* border: 1px solid black; */
+	animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+	0% {
+		transform: translate3d(-100%, 0, 0);
+	}
+	100% {
+		transform: translate3d(400%, 0, 0);
+	}
+}
+
+#studentDisplay {
+	width: 70%;
+	margin: auto;
+	margin-top: 1%;
+}
+#studentDisplay > thead {
+	color: rgb(27, 17, 17);
+	background-color: #f2f2f2;
+	font-size: larger;
+}
+#studentDisplay > tbody {
+	color: black;
+	padding: 10%;
+	background-color: #ebd5d5;
+}
+#studentDisplay th,
+#studentDisplay td {
+	padding: 1%;
+	text-align: center;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#updateStudent > #details > button {
+	width: 48%;
+	margin: auto;
+	padding: 2%;
+	font-weight: bolder;
+	font-size: large;
+	color: rgb(17, 10, 10);
+	background-color: #5457a6;
+	border: none;
+}
+#updateStudent {
+	display: none;
+	position: fixed;
+	top: 10%;
+	animation-name: upToDown;
+	animation-duration: 300ms;
+	animation-timing-function: linear;
+}
+
+@keyframes upToDown {
+	from {
+		top: -10%;
+	}
+	to {
+		top: 10%;
+	}
+}
+#updateStudent h3 {
+	text-align: center;
+	margin-bottom: 1%;
+	color: #302a77;
+}
+#updateStudent > #details {
+	background-color: #eebb55;
+}
+
+#updateStudent > #details > label {
+	color: #302a77;
+	font-weight: bold;
+	font-size: large;
+}
