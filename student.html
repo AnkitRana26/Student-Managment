@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Student Management System</title>
+		<link rel="stylesheet" href="common.css" />
+	</head>
+	<body>
+		<nav>
+			<h1 id="navbarHeading">Student Management System</h1>
+			<hr />
+			<ul id="navbarOptions">
+				<li><a href="index.html">DashBoard</a></li>
+				<li><a href="student.html">Students</a></li>
+			</ul>
+		</nav>
+		<div id="status">
+			<div id="showStatus">
+				<b>PTWEB-06 :-</b> <span id="pt06">0</span> <b>PTWEB-07 :-</b>
+				<span id="pt07">0</span> <b>PTWEB-08 :-</b>
+				<span id="pt08">0</span>
+			</div>
+		</div>
+
+		<table id="studentDisplay">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Number</th>
+					<th>Email</th>
+					<th>Batch</th>
+					<th>Remove</th>
+					<th>Update</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+
+		<div id="updateStudent">
+			<form id="details">
+				<h3>Update Details</h3>
+				<label for="name">Student Name</label>
+				<input type="text" id="name" required />
+				<label for="age">Age</label>
+				<input type="number" id="age" required />
+				<label for="number">Number</label>
+				<input type="number" id="number" required />
+				<label for="email">Email</label>
+				<input type="email" name="" id="email" required />
+				<label for="batch">Batch</label>
+				<select name="" id="batch">
+					<option value="PTWEB-06">PTWEB-06</option>
+					<option value="PTWEB-07">PTWEB-07</option>
+					<option value="PTWEB-08">PTWEB-08</option>
+				</select>
+				<button id="saveChanges">Save Changes</button>
+				<button id="cancelBttn">Cancel</button>
+			</form>
+		</div>
+
+		<script src="./student.js"></script>
+		<script
+			src="https://kit.fontawesome.com/a103610109.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
