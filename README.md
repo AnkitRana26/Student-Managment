@@ -5,5 +5,5 @@ Student Management System is system that helps us to manage Students Details , I
 
 ##Details Dashboard
 
-[details](https://github.com/AnkitRana26/Student-Managment/blob/main/src/Details%20DashBoard.png)
+![details](https://github.com/AnkitRana26/Student-Managment/blob/main/src/Details%20DashBoard.png)
 
